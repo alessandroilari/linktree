@@ -16,6 +16,15 @@
 			color: white;
 		}
 		
+		.container {
+		    position: absolute;
+			top: 50%;
+			left: 50%;
+			-moz-transform: translateX(-50%) translateY(-50%);
+			-webkit-transform: translateX(-50%) translateY(-50%);
+			transform: translateX(-50%) translateY(-50%);
+		}
+		
 		.button {
 			background-color: #363333;
 			border-radius: 20px; 
@@ -39,30 +48,20 @@
 	</head>	
 	
 	<body>
-
-		
-		<table border=0 align=center>
-		<!-- style='border-radius: 25px; border: 5px solid #5727A3; height: 100px; width: 100%px;'> -->
+		LINKTREE 2.6
+		<div class="container">
 			
-			LINKTREE 2.5
+			<form action="https://www.instagram.com/alessandro_ilari/" method="post">
+				<input type="submit" name="home" class="button" value="🏠 Instagram" />
+			</form>
 			
-			<tr>
-				<td>
-					<form action="https://www.instagram.com/alessandro_ilari/" method="post">
-						<input type="submit" name="home" class="button" value="🏠 Instagram" />
-					</form>
-				</td>
-			</tr>	
 			
-			<tr>
-				<td>
-					<form action="https://www.tiktok.com/@alessandro_ilari?lang=it-IT" method="post">
-						<input type="submit" name="home" class="button" value="🏠 TikTok" />
-					</form>
-				</td>
-			</tr>
 			
-		</table>
+			<form action="https://www.tiktok.com/@alessandro_ilari?lang=it-IT" method="post">
+				<input type="submit" name="home" class="button" value="🏠 TikTok" />
+			</form>
+			
+		</div>
 	</body>
 	
 </html>
